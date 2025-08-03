@@ -55,15 +55,11 @@ resource "aws_security_group" "ec2_sg" {
   }
 
   tags = {
-    Name = "EC2_Security_Group"
+    Name = "EC2_Security_Group-bhavesh"
   }
 }
 
 data "aws_vpc" "default" {
   default = true
 }
-
-
-
-
 
