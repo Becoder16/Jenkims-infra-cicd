@@ -55,11 +55,12 @@ resource "aws_security_group" "ec2_sg" {
   }
 
   tags = {
-    Name = "EC2_Security_Group-bhavesh"
+    Name = "EC2_Security_Group-bigb"
   }
 }
 
 data "aws_vpc" "default" {
   default = true
 }
+
 
